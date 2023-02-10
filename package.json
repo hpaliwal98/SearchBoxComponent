@@ -1,0 +1,55 @@
+{
+  "name": "searchboxcomponent",
+  "version": "1.0.0",
+  "description": "Search Box Component for MS Search",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpaliwal98/SearchBoxComponent.git"
+  },
+  "keywords": [],
+  "author": "Hitansh Paliwal<hpaliwal@microsoft.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hpaliwal98/SearchBoxComponent/issues"
+  },
+  "homepage": "https://github.com/hpaliwal98/SearchBoxComponent#readme",
+  "devDependencies": {
+    "@types/react": "^16.14.35",
+    "@types/react-dom": "16.9.8",
+    "typescript": "^4.9.5",
+    "@types/jquery": "^3.5.14",
+    "@microsoft/rush-stack-compiler-3.7": "0.2.3",
+    "@microsoft/sp-build-web": "1.12.1",
+    "@microsoft/sp-module-interfaces": "1.12.1",
+    "@microsoft/sp-tslint-rules": "1.12.1",
+    "@microsoft/sp-webpart-workbench": "1.12.1",
+    "@types/webpack-env": "1.13.1",
+    "ajv": "~5.2.2",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@microsoft/sp-core-library": "1.12.1",
+    "@microsoft/sp-lodash-subset": "1.12.1",
+    "@microsoft/sp-office-ui-fabric-core": "1.12.1",
+    "@microsoft/sp-property-pane": "1.12.1",
+    "@microsoft/sp-webpart-base": "1.12.1",
+    "office-ui-fabric-react": "7.156.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-redux": "^6.0.1",
+    "react-waypoint": "^10.3.0",
+    "redux": "^4.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0"
+  },
+
+  "files": ["lib/**/*"]
+}
